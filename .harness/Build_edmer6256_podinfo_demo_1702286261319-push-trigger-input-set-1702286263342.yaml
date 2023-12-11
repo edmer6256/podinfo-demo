@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_edmer6256_podinfo_demo_1702286261319-push-trigger-input-set
+  identifier: Build_edmer6256_podinfo_demo_1702286261319pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_edmer6256_podinfo_demo_1702286261319
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
